@@ -35,8 +35,9 @@ namespace rock_paper_scissors
           {0, "rock"},
           {1, "scissors"},
           {2, "paper"}
-          //NOTE I would have to do all the comparisons d
+          //NOTE I would have to do all the comparisons 
       };
+          //NOTE Computer Option is what is assigned to the random number
           if (choice == computerChoice[computerOption])
           {
             Console.WriteLine("You have tied the game");
