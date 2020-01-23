@@ -14,7 +14,8 @@ namespace rock_paper_scissors
       bool validating = true;
       while (validating)
       {
-        Console.WriteLine("Press the Q key to exit out of the game or press any othercle key to play");
+        Console.WriteLine("Press the Q key to exit out of the game or press any other key to play");
+        //NOTE ConsoleKeyInfo - Logs out of the game 
         ConsoleKeyInfo key = Console.ReadKey();
         if (key.Key == ConsoleKey.Q)
         {
